@@ -1,0 +1,36 @@
+# Core web framework
+streamlit==1.38.0
+
+# Data analysis
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization (optional for profile charts)
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# File formats
+openpyxl==3.1.5        # Excel support
+pdfplumber==0.11.4     # PDF table extraction
+python-docx==1.1.2     # Word document parsing
+lxml==5.3.0            # XML parsing (ElementTree fallback)
+xlrd==2.0.1            # Older Excel support
+
+# AI/LLM integrations (for chat_agent)
+google-cloud-aiplatform==1.66.0  # Vertex AI / Gemini integration
+vertexai==1.66.0                  # (Optional) Explicit Gemini 1.5/2.0 SDK
+
+# Text processing & helpers
+regex==2024.9.11
+tqdm==4.66.5
+
+# Web & utility
+requests==2.32.3
+protobuf==5.27.3
+
+# Optional UI polish and caching
+streamlit-option-menu==0.3.12
+streamlit-extras==0.4.3
+
+# Notebook interoperability (if you run in Vertex Workbench)
+ipykernel==6.29.5
